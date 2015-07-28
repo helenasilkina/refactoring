@@ -1,12 +1,10 @@
-// After
-
+# After
 temp = 2 * (height + width)
 print(temp)
 temp = height * width
 print(temp)
 
-// Refactoring
-
+# Refactoring
 perimeter = 2 * (height + width)
 print(perimeter);
 area = height * width
