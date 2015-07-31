@@ -4,7 +4,7 @@
 
 Решение: Объедините все условия в одном условном операторе.
 
-Пример: <a href="https://github.com/helenasilkina/refactoring/Consolidate_Conditional_Expression.py">Consolidate_Conditional_Expression.py</a>
+Пример: <a href="https://github.com/helenasilkina/refactoring/blob/master/Consolidate_Conditional_Expression.py">Consolidate_Conditional_Expression.py</a>
 
 Причины рефакторинга: Код содержит множество чередующихся операторов, которые выполняют одинаковые действия. Причина разделения операторов неочевидна.
 
