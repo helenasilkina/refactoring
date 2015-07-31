@@ -9,6 +9,7 @@
 Выделите в отдельные методы все сложные части оператора: условие, then и else.
 
 Пример 
+
 <a href="https://github.com/helenasilkina/refactoring/blob/master/Decompose_Conditional.py">Decompose_Conditional.py</a>
 
 Причины рефакторинга
