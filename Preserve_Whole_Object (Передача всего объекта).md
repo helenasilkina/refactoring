@@ -4,7 +4,7 @@
 
 Решение: Вместо этого передавайте весь объект.
 
-Пример: <a href="https://github.com/helenasilkina/refactoring/blob/master/"></a>
+Пример: <a href="https://github.com/helenasilkina/refactoring/blob/master/Preserve_Whole_Object.py">Preserve_Whole_Object.py</a>
 
 Причины рефакторинга
 
