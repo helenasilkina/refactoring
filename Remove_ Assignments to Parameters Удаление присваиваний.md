@@ -4,7 +4,7 @@
 
 Решение: вместо параметра воспользуйтесь новой локальной переменной.
 
-Пример: <a href="https://github.com/helenasilkina/refactoring/blob/master/Remove_%20Assignments_Parameters.py"></a>
+Пример: <a href="https://github.com/helenasilkina/refactoring/blob/master/Remove_%20Assignments_Parameters.py">Remove_Assignments_Parameters.py</a>
 
 Причины рефакторинга: причины проведения этого рефакторинга такие же, как и при расщеплении переменной, но в данном случае речь идёт о параметре, а не о локальной переменной.
 
