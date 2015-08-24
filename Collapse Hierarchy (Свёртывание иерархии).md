@@ -17,6 +17,6 @@
 Порядок рефакторинга
 
 1. Выберите, какой класс убрать удобнее: суперкласс или подкласс.
-2. Используйте «подъём поля» (Pull up field) и «подъём метода» (Pull up method), если вы решили избавиться от подкласса. Используйте «спуск поля» (Push down field) и «спуск метода» (Push down method), если убран будет суперкласс.
+2. Используйте <a href="https://github.com/helenasilkina/refactoring/blob/master/Pull%20Up%20Field%20(Подъём%20поля).md">подъём поля</a> и <a href="https://github.com/helenasilkina/refactoring/blob/master/Pull%20Up%20Method%20(Подъём%20метода).md">подъём метода</a>, если вы решили избавиться от подкласса. Используйте <a href="https://github.com/helenasilkina/refactoring/blob/master/Push%20Down%20Field%20(Спуск%20поля).md">спуск поля</a> и <a href="https://github.com/helenasilkina/refactoring/blob/master/Push%20Down%20Method%20(Спуск%20метода).md">спуск метода</a>, если убран будет суперкласс.
 3. Замените все использования класса, который будет удалён, классом, в который переезжают поля и методы. Зачастую это будет код создания классов, указания типов параметров и переменных, а также документации в комментариях.
 4. Удалите пустой класс.
