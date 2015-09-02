@@ -1,10 +1,10 @@
 Объединение условных операторов. 
 
-Проблема: У вас есть несколько условных операторов, ведущих к одинаковому результату или действию. Борется с запахом: дублирование кода.
+Проблема: у вас есть несколько условных операторов, ведущих к одинаковому результату или действию. Борется с запахом: дублирование кода.
 
 Решение: объедините все условия в одном условном операторе.
 
-Пример: <a href="https://github.com/helenasilkina/refactoring/blob/master/Consolidate_Conditional_Expression.py">Consolidate_Conditional_Expression.py</a>
+Примеры: <a href="https://github.com/helenasilkina/refactoring/blob/master/Consolidate_Conditional_Expression.py">Consolidate_Conditional_Expression.py</a> <a href="https://github.com/helenasilkina/refactoring/blob/master/Consolidate_Conditional_Expression.js">Consolidate_Conditional_Expression.js</a>
 
 Причины рефакторинга: код содержит множество чередующихся операторов, которые выполняют одинаковые действия. Причина разделения операторов неочевидна.
 
