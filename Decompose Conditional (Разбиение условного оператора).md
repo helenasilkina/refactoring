@@ -4,7 +4,7 @@
 
 Решение: выделите в отдельные методы все сложные части оператора: условие, then и else.
 
-Пример: <a href="https://github.com/helenasilkina/refactoring/blob/master/Decompose_Conditional.py">Decompose_Conditional.py</a>
+Примеры: <a href="https://github.com/helenasilkina/refactoring/blob/master/Decompose_Conditional.py">Decompose_Conditional.py</a>, <a href="https://github.com/helenasilkina/refactoring/blob/master/Decompose_Conditional.js">Decompose_Conditional.js</a>
 
 Причины рефакторинга: чем длиннее кусок кода, тем сложнее понять, что он делает. Все усложняется ещё больше, когда код щедро приправлен условными операторами:
 
