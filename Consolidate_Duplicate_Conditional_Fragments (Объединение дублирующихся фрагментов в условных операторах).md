@@ -4,7 +4,7 @@
 
 Решение: вынесите его за рамки оператора.
 
-Пример: <a href="https://github.com/helenasilkina/refactoring/blob/master/Consolidate_Duplicate_Conditional_Fragments.py">Consolidate_Duplicate_Conditional_Fragments.py</a>
+Примеры: <a href="https://github.com/helenasilkina/refactoring/blob/master/Consolidate_Duplicate_Conditional_Fragments.py">Consolidate_Duplicate_Conditional_Fragments.py</a>, <a href="https://github.com/helenasilkina/refactoring/blob/master/Consolidate_Duplicate_Conditional_Fragments.js">Consolidate_Duplicate_Conditional_Fragments.js</a>
 
 Причины рефакторинга: дублирующий код находится внутри всех веток условного оператора. Зачастую это является результатом эволюции кода внутри веток оператора, тем более, если над кодом работало несколько человек.
 
