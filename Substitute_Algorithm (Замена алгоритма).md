@@ -4,6 +4,8 @@
 
 Решение: замените тело метода, реализующего старый алгоритм, новым алгоритмом.
 
+Примеры: <a href="https://github.com/helenasilkina/refactoring/blob/master/Substitute_Algorithm.py">Substitute_Algorithm.py</a>, <a href="https://github.com/helenasilkina/refactoring/blob/master/Substitute_Algorithm.js">Substitute_Algorithm.js</a>
+
 Причины рефакторинга
 
 1. Поэтапный рефакторинг – не единственный способ улучшить программу. Иногда вы сталкиваетесь с таким нагромождением проблем в методе, что его гораздо проще переписать заново. С другой стороны, вы могли найти алгоритм, который куда проще и эффективнее текущего. В этом случае надо просто заменить старый алгоритм новым.
