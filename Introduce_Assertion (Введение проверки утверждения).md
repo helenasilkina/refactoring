@@ -4,7 +4,7 @@
 
 Решение: Замените эти предположения конкретными проверками.
 
-Пример: <a href="https://github.com/helenasilkina/refactoring/blob/master/Introduce_Assertion.py">Introduce_Assertion.py</a>
+Примеры: <a href="https://github.com/helenasilkina/refactoring/blob/master/Introduce_Assertion.py">Introduce_Assertion.py</a>, <a href="https://github.com/helenasilkina/refactoring/blob/master/Introduce_Assertion.js">Introduce_Assertion.js</a>
 
 Причины рефакторинга
 
