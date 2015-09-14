@@ -4,7 +4,7 @@ function potentialEnergy(mass, height) {
 }  
 
 // Refactoring
-var GRAVITATIONAL_CONSTANT = 9.81
+var GRAVITATIONAL_CONSTANT = 9.81;
 
 function potentialEnergy(mass, height) {
   return mass * height * GRAVITATIONAL_CONSTANT;
