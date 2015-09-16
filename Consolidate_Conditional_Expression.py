@@ -6,10 +6,8 @@ def disabilityAmount():
         return 0
     if isPartTime:
         return 0
-    # compute the disability amount
 
 # Refactoring
 def disabilityAmount():
     if isNotEligableForDisability():
         return 0
-    # compute the disability amount
