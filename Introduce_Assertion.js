@@ -6,6 +6,6 @@ function getExpenseLimit(self) {
         
 // Refactoring
 function getExpenseLimit(self) {
-  assert((self.expenseLimit != NULL_EXPENSE) || (self.primaryProject != None));
+  console.log((self.expenseLimit != NULL_EXPENSE) || (self.primaryProject != None));
   return (self.expenseLimit != NULL_EXPENSE) ? self.expenseLimit : self.primaryProject.getMemberExpenseLimit();
 }    
