@@ -4,7 +4,7 @@
 
 Решение: выделите все проверки специальных или граничных случаев выполнения в отдельные условия и поместите их перед основными проверками. В идеале, вы должны получить «плоский» список условных операторов, идущих один за другим.
 
-Пример: <a href="https://github.com/helenasilkina/refactoring/blob/master/Replace_ Nested_Conditional_with_Guard_Clauses.py">Replace_ Nested_Conditional_with_Guard_Clauses.py</a>
+Пример: <a href="https://github.com/helenasilkina/refactoring/blob/master/Replace_Nested_Conditional_with_Guard_Clauses.py">Replace_ Nested_Conditional_with_Guard_Clauses.py</a>, <a href="https://github.com/helenasilkina/refactoring/blob/master/Replace_Nested_Conditional_with_Guard_Clauses.js">Replace_ Nested_Conditional_with_Guard_Clauses.js</a>
 
 Причины рефакторинга: «Условный оператор из ада» довольно просто отличить. Отступы каждого из уровней вложенности формируют в нем отчётливую стрелку, указывающую вправо.
 Разобраться в том, что и как делает такой оператор довольно сложно, так как «нормальный» ход выполнения в нем не очевиден. Такие операторы появляются эволюционным путём, когда каждое из условий добавляется в разные промежутки времени без мыслей об оптимизации остальных условий.
