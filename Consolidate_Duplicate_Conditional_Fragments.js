@@ -8,6 +8,7 @@ if (isSpecialDeal()) {
 }
 
 // Refactoring
+var total;
 if (isSpecialDeal()) {
   total = price * 0.95;
 } else {
