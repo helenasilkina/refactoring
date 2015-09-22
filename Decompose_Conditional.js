@@ -6,6 +6,7 @@ if (date.before(SUMMER_START) || date.after(SUMMER_END)) {
 }
 
 // Refactoring
+var charge;
 if (notSummer(date)) {
     charge = winterCharge(quantity);
 } else {
