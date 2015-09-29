@@ -3,8 +3,8 @@ function printOwing(self) {
   self.printBanner();
 
   // print details
-  print("name:", self.name);
-  print("amount:", self.getOutstanding());
+  console.log("name: ", self.name);
+  console.log("amount: ", self.getOutstanding());
 }    
 
 // Refactoring
@@ -14,6 +14,6 @@ function printOwing(self) {
 }    
 
 function printDetails(self, outstanding) {
-  print("name:", self.name);
-  print("amount:", outstanding);
+  console.log("name: ", self.name);
+  console.log("amount: ", outstanding);
 }
