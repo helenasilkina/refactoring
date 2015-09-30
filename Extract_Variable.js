@@ -1,7 +1,7 @@
 // After
 function renderBanner(self) {
-    if ((self.platform.toUpperCase().indexOf("MAC") > -1) &&
-       (self.browser.toUpperCase().indexOf("IE") > -1) &&
+    if ((navigator.platform.indexOf("Win") !== -1) &&
+       (navigator.userAgent.indexOf("MSIE") !== -1) &&
        self.wasInitialized() && (self.resize > 0) ) {
         // do something
     }    
@@ -9,9 +9,9 @@ function renderBanner(self) {
         
 // Refactoring
 function renderBanner(self) {
-    var isMacOs = self.platform.toUpperCase().indexOf("MAC") > -1
-    var isIE = self.browser.toUpperCase().indexOf("IE") > -1
-    var wasResized = self.resize > 0
+    var isWindowOs = navigator.platform.indexOf("Win") !== -1;
+    var isIE = navigator.userAgent.indexOf("MSIE") !== -1;
+    var wasResized = self.resize > 0;
 
     if (isMacOs && isIE && self.wasInitialized() && wasResized) {
       // do something
