@@ -6,6 +6,8 @@ function getExpenseLimit(self) {
         
 // Refactoring
 function getExpenseLimit(self) {
-  console.log((self.expenseLimit != NULL_EXPENSE) || (self.primaryProject != None));
+  if ((self.expenseLimit != NULL_EXPENSE) || (self.primaryProject != None)) {
+    throw new Error('Should have either expense limit or a primary project');
+  }
   return (self.expenseLimit != NULL_EXPENSE) ? self.expenseLimit : self.primaryProject.getMemberExpenseLimit();
 }    
