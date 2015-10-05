@@ -8,7 +8,7 @@ class Report {
 // Refactoring
 class Report {
   function sendReport(self) {
-    var newStart = self._nextDay(self.previousEnd);
+    var nextDay = self._nextDay(self.previousEnd);
   }      
         
   function _nextDay(self, arg) {
