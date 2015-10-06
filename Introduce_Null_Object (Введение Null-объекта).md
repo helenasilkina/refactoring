@@ -1,14 +1,10 @@
 Введение Null-объекта
 
-Проблема
+Проблема: Из-за того, что некоторые методы возвращают null вместо реальных объектов, у вас в коде присутствует множество проверок на null.
 
-Из-за того, что некоторые методы возвращают null вместо реальных объектов, у вас в коде присутствует множество проверок на null.
+Решение: Вместо null возвращайте Null-объект, который предоставляет поведение по умолчанию.
 
-Решение
-
-Вместо null возвращайте Null-объект, который предоставляет поведение по умолчанию.
-
-Пример: <a href="https://github.com/helenasilkina/refactoring/blob/master/"></a>
+Примеры: <a href="https://github.com/helenasilkina/refactoring/blob/master/Introduce_Null_Object.js">Introduce_Null_Object.py</a>, <a href="https://github.com/helenasilkina/refactoring/blob/master/Introduce_Null_Object.js">Introduce_Null_Object.py</a>
 
 Причины рефакторинга: Десятки проверок на null усложняют и засоряют код.
 
