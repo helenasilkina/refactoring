@@ -1,5 +1,5 @@
 // After
-if (customer == Null) {
+if (customer === Null) {
   plan = BillingPlan.basic();
 } else {
   plan = customer.getPlan();
@@ -16,7 +16,7 @@ class NullCustomer(Customer) {
 }        
 
 // Replace null values with Null-object.
-var customer =  (order.customer != Null) ? order.customer : NullCustomer();
+var customer =  (order.customer !== Null) ? order.customer : NullCustomer();
 
 // Use Null-object as if it's normal subclass.
 var plan = customer.getPlan()
