@@ -10,7 +10,9 @@ class NullCustomer(Customer):
         return True
     def getPlan(self):
         return self.NullPlan()
+        
 # Replace null values with Null-object.
 customer = order.customer if order.customer != None else NullCustomer()
+
 # Use Null-object as if it's normal subclass.
 plan = customer.getPlan()
