@@ -4,10 +4,10 @@ def checkPeople(people):
   for i in people:
     if not found:
       if i == "Mark":
-        found = true;
+        found = True;
         sendResult(i);
       if i == "John":
-        found = true;
+        found = True;
         sendResult(i);
         
 # After refactoring
