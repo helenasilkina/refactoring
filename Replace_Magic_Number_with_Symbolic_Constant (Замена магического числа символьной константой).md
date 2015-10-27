@@ -28,9 +28,9 @@ for (i = 0; i < сount; i++) ... ;
 Магические числа могут быть использованы для реализации кодирования типа. Например, у вас есть два типа пользователей, и чтобы обозначить их, у вас есть числовое поле в классе, в котором для администраторов хранится число 1, а для простых пользователей – число 2.
 В этом случае имеет смысл использовать один из рефакторингов избавления от кодирования типа:
 
-1. <a href="https://github.com/helenasilkina/refactoring/blob/master/Replace%20Type%20Code%20with%20Class%20(Замена%20кодирования%20типа%20классом).md">замена кодирования типа классом</a>
-2. <a href="https://github.com/helenasilkina/refactoring/blob/master/Replace%20Type%20Code%20with%20Subclasses%20(Замена%20кодирования%20типа%20подклассами).md">замена кодирования типа подклассами</a>
-3. <a href="https://github.com/helenasilkina/refactoring/blob/master/Replace%20Type%20Code%20with%20State%20(Strategy)%20(Замена%20кодирования%20типа%20состоянием%20(стратегией)).md">замена кодирования типа состоянием/стратегией</a>
+ - <a href="https://github.com/helenasilkina/refactoring/blob/master/Replace%20Type%20Code%20with%20Class%20(Замена%20кодирования%20типа%20классом).md">замена кодирования типа классом</a>
+ - <a href="https://github.com/helenasilkina/refactoring/blob/master/Replace%20Type%20Code%20with%20Subclasses%20(Замена%20кодирования%20типа%20подклассами).md">замена кодирования типа подклассами</a>
+ - <a href="https://github.com/helenasilkina/refactoring/blob/master/Replace%20Type%20Code%20with%20State%20(Strategy)%20(Замена%20кодирования%20типа%20состоянием%20(стратегией)).md">замена кодирования типа состоянием/стратегией</a>
 
 Порядок рефакторинга:
 
