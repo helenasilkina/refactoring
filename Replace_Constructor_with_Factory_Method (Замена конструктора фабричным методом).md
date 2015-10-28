@@ -1,10 +1,10 @@
-Замена конструктора фабричным методом
+<strong>Замена конструктора фабричным методом</strong>
 
 Проблема: У вас есть сложный конструктор, делающий нечто большее, чем простая установка значений полей объекта.
 
 Решение: Создайте фабричный метод и замените им вызовы конструктора.
 
-Пример: <a href="https://github.com/helenasilkina/refactoring/blob/master/Replace_Constructor_with_Factory_Method.java">Replace_Constructor_with_Factory_Method.java</a>
+Примеры: <a href="https://github.com/helenasilkina/refactoring/blob/master/Replace_Constructor_with_Factory_Method.java">Replace_Constructor_with_Factory_Method.java</a>, <a href="https://github.com/helenasilkina/refactoring/blob/master/Replace_Constructor_with_Factory_Method.js">Replace_Constructor_with_Factory_Method.js</a>
 
 Причины рефакторинга
 
