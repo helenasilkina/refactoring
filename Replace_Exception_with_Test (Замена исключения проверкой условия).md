@@ -4,7 +4,7 @@
 
 Решение: Замените выбрасывание исключения проверкой этого условия.
 
-Пример: <a href="https://github.com/helenasilkina/refactoring/blob/master/Replace_Exception_with_Test.py">Replace_Exception_with_Test.py</a>, <a href="https://github.com/helenasilkina/refactoring/blob/master/Replace_Exception_with_Test.js">Replace_Exception_with_Test.js</a>
+Примеры: <a href="https://github.com/helenasilkina/refactoring/blob/master/Replace_Exception_with_Test.py">Replace_Exception_with_Test.py</a>, <a href="https://github.com/helenasilkina/refactoring/blob/master/Replace_Exception_with_Test.js">Replace_Exception_with_Test.js</a>
 
 Причины рефакторинга:
 
