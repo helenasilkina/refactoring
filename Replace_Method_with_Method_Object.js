@@ -22,6 +22,6 @@ class PriceCalculator() {
   // copy relevant information from order object.
   function __init__(self, order) {}    
 
-  # long computation.
+  // long computation.
   function compute(self) {}
 }        
