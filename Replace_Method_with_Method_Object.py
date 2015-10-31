@@ -5,7 +5,6 @@ class Order:
         secondaryBasePrice = 0
         tertiaryBasePrice = 0
         # long computation.
-        #...
 
 # Refactoring
 class Order:
